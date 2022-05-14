@@ -1,32 +1,32 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/hospital-front-end/node_modules
+/hospital-front-end/.pnp
+/hospital-fron-end/.pnp.js
 
 # testing
-/coverage
+/hospital-front-end/coverage
 
 # next.js
-/.next/
-/out/
+/hospital-front-end/.next/
+/hospital-front-end/out/
 
 # production
-/build
+/hospital-front-end/build
 
 # misc
-.DS_Store
+/hospital-front-end/.DS_Store
 *.pem
 
 # debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+/hospital-front-end/npm-debug.log*
+/hospital-front-end/yarn-debug.log*
+/hospital-front-end/yarn-error.log*
+/hospital-front-end/.pnpm-debug.log*
 
 # local env files
-.env*.local
+/hospital-front-end/.env*.local
 
 # vercel
-.vercel
+/hospital-front-end/.vercel
