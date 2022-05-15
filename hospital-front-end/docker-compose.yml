@@ -3,18 +3,17 @@ services:
     web:
         build: .
         container_name: hospital-demo
-        command: npm run next dev  
+        command: npm run dev  
         image: node:alpine3.15 
         ports:
-            - "9999:80"
+            - "3000:80"
         volumes:
             - .:/opt/app
             - /opt/app/node_modules/
-            - redis
         networks:
             - demo-network
-        environment:
-            - NODE_ENV=local
+        # environment:
+        #     - NODE_ENV=local
 networks:
     demo-network:
         name: demo-network

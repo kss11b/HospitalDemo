@@ -14,10 +14,10 @@ COPY ./ /opt/app/
 
 EXPOSE 80
 
-ARG NODE_ENV
+# ARG NODE_ENV
 
 RUN npm run build
 
 VOLUME ["/opt/app"]
 
-CMD ["npm run next start"]
+CMD ["npm run start"]
